@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #110f2d;
+  box-shadow: 0 10px 25px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.navbar-brand {
+  color: #fff !important  ;
+  font-weight: 700;
+}
+/* .navbar-dark .navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;..') !important;
+} */
+.main-nav {
+  font-weight: 600;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  /* border-bottom: 1px solid #fff; */
+}
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline solid #04aa6d 20% !important;
+  text-decoration-color: #04aa6d !important;
+}
+.nav-user-btn {
+  float: right;
+}
+
+.userName
+{
+  padding: 14px 16px; 
+  text-align: center;
+}
