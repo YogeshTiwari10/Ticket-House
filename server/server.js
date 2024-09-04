@@ -13,7 +13,7 @@ var Stripe= require('stripe')
 var cookieParser = require('cookie-parser');
 
 
-const stripe = new Stripe('sk_test_51N7hl3SHBE45jscN5AtjXTUNJacUegzFPTJHZeSglVfIhi8Vn6ek02Mf11CQoA3TCv0lnLaf1HdNIuCyYGzAo16Z00SRKVA0bE');
+const stripe = new Stripe('stripe key');
 
 
 var port = process.env.PORT || 3000;
